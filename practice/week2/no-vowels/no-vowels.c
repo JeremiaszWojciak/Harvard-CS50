@@ -23,7 +23,7 @@ int main(int argc, string argv[])
 
 string replace(string word)
 {
-    for (int i = 0; i < strlen(word); i++)
+    for (int i = 0, n = strlen(word); i < n; i++)
     {
         switch (word[i])
         {
@@ -45,3 +45,4 @@ string replace(string word)
     }
     return word;
 }
+

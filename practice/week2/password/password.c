@@ -28,7 +28,7 @@ bool valid(string password)
 {
     bool lowercase = false, uppercase = false, number = false, symbol = false;
 
-    for (int i = 0; i < strlen(password); i++)
+    for (int i = 0, n = strlen(password); i < n; i++)
     {
         if (islower(password[i]))
         {
@@ -57,3 +57,4 @@ bool valid(string password)
         return false;
     }
 }
+
