@@ -26,7 +26,7 @@ int main(void)
 
         printf("  ");
 
-        for (int rs = 0; rs < row + 1; rs++)
+        for (int rh = 0; rh < row + 1; rh++)
         {
             printf("#");
         }
@@ -34,3 +34,4 @@ int main(void)
         printf("\n");
     }
 }
+
