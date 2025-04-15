@@ -5,7 +5,7 @@ import sys
 def main():
     # Check for command-line usage
     if len(sys.argv) != 3:
-        print("Usage: python dna.py [DATABASE] [SEQUENCE]")
+        print("Usage: dna.py [DATABASE] [SEQUENCE]")
         return
 
     # Read database file into a variable

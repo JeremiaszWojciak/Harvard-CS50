@@ -23,7 +23,6 @@ int main(void)
     }
 }
 
-// TODO: Complete the Boolean function below
 bool valid(string password)
 {
     bool lowercase = false, uppercase = false, number = false, symbol = false;
